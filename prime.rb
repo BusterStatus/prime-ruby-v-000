@@ -13,4 +13,5 @@ def prime?(integer)
       break
     end
   }
+  return verdict
 end
