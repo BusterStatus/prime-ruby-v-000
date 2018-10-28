@@ -9,6 +9,7 @@ def prime?(integer)
       FALSE
     else
       TRUE
-    end}
+    end
+  }
   end
 end
