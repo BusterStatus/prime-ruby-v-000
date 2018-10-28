@@ -2,5 +2,5 @@
 def prime?(integer)
   if integer < 0
     integer = integer * -1
-  array = (integer..)
+  array = (2..)
 end
