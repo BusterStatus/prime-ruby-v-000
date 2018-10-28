@@ -6,4 +6,9 @@ def prime?(integer)
   array = (2..sqrt(integer)).to_a
   array.each{|x|
     if n % x == 0
+      FALSE
+    else
+      TRUE
+    end
+  end
 end
