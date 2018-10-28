@@ -2,5 +2,5 @@
 def prime?(integer)
   if integer < 0
     integer = integer * -1
-  array = (2..sqrt(integer))
+  array = (2..sqrt(integer)).to_a
 end
