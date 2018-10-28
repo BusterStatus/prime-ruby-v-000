@@ -5,7 +5,7 @@ def prime?(integer)
   end
   array = (2..Math.sqrt(integer)).to_a
   array.each{|x|
-    if n % x == 0
+    if integer % x == 0
       FALSE
     else
       TRUE
