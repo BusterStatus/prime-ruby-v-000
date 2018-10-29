@@ -5,7 +5,7 @@ def prime?(integer)
     integer = integer * -1
   end
   last = Math.sqrt(integer).ceil
-  array = (2..last).to_a
+  array = (1..last).to_a
   array.each{|x|
     if integer % x == 0
       verdict = FALSE
