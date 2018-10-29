@@ -1,6 +1,5 @@
 # Add  code here!
 def prime?(integer)
-  verdict = nil
   if integer < 0
     integer = integer * -1
   end
