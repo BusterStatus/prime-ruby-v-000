@@ -4,7 +4,7 @@ def prime?(integer)
   if integer < 0
     integer = integer * -1
   end
-  last = Math.sqrt(integer)
+  last = Math.sqrt(integer).ceil
   array = (2..last).to_a
   array.each{|x|
     if integer % x == 0
