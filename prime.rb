@@ -8,7 +8,7 @@ def prime?(integer)
     elsif integer == 2
       verdict = true
     else
-      true
+      verdict = true
     end
   end
   return verdict
