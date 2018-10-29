@@ -15,4 +15,5 @@ def prime?(integer)
   #   end
   # }
   # return verdict
+  prime?(integer)
 end
